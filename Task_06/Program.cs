@@ -21,14 +21,14 @@ namespace Task_06
 
         static void Main(string[] args)
         {
-            Console.Write("Въведите дължината на масива: ");
+            Console.Write("Въведете дължината на масива: ");
             int length = Int32.Parse(Console.ReadLine());
 
             int[] arr = new int[length];
 
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write("Въведите {0} елемент: ", i);
+                Console.Write("Въведете {0} елемент: ", i);
                 arr[i] = Int32.Parse(Console.ReadLine());
             }
 

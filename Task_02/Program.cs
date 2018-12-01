@@ -17,11 +17,11 @@ namespace Task_02
 
         static void Main(string[] args)
         {
-            Console.Write("Въведите първото число: ");
+            Console.Write("Въведете първото число: ");
             a = Int32.Parse(Console.ReadLine());
-            Console.Write("Въведите второто число: ");
+            Console.Write("Въведете второто число: ");
             int b = Int32.Parse(Console.ReadLine());
-            Console.Write("Въведите третото число: ");
+            Console.Write("Въведете третото число: ");
             int c = Int32.Parse(Console.ReadLine());
 
             GetMax(a, b);

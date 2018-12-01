@@ -15,7 +15,7 @@ namespace Task_07
 
         static void Main(string[] args)
         {
-            Console.Write("Въведите число: ");
+            Console.Write("Въведете число: ");
             string number = Console.ReadLine();
 
             Console.WriteLine(Circl(number));

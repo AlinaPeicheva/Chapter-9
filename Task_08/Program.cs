@@ -12,7 +12,7 @@ namespace Task_08
             int[] Arr1 = new int[10000];
             int[] Arr2 = new int[10000];
 
-            Console.Write("Въведите първото число: ");
+            Console.Write("Въведете първото число: ");
             String s1 = Console.ReadLine();
             length = s1.Length;
 
@@ -21,7 +21,7 @@ namespace Task_08
                 Arr1[i] = Convert.ToInt32(s1.Substring(s1.Length - 1 - i, 1));
             }
 
-            Console.Write("Въведите второто число: ");
+            Console.Write("Въведете второто число: ");
             String s2 = Console.ReadLine();
 
             if (s2.Length > length)

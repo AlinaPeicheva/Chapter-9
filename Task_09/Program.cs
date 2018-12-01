@@ -19,21 +19,21 @@ namespace Task_09
 
         public static void Main(string[] args)
         {
-            Console.Write("Въведите дължината на масива: ");
+            Console.Write("Въведете дължината на масива: ");
             int length = Int32.Parse(Console.ReadLine());
 
             int[] arr = new int[length];
 
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write("Въведите {0} елемент: ", i);
+                Console.Write("Въведете {0} елемент: ", i);
                 arr[i] = Int32.Parse(Console.ReadLine());
             }
-            Console.Write("\nВъведите границите на интервала");
-            Console.Write("\nВъведите първия индекс: ");
+            Console.Write("\nВъведете границите на интервала");
+            Console.Write("\nВъведете първия индекс: ");
             int startIndex = Int32.Parse(Console.ReadLine());
 
-            Console.Write("Въведите последния индекс: ");
+            Console.Write("Въведете последния индекс: ");
             int endIndex = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine("Най-голямото число в интервала е {0}-{1} is {2}.", startIndex, endIndex, GetMax(arr, startIndex, endIndex));
