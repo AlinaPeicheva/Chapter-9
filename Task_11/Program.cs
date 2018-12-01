@@ -17,15 +17,15 @@ namespace Task_11
 
         static void Reverse()
         {
-            int numbReverse;
+            int numb;
             string stringNumberReverse;
             do
             {
                 Console.Clear();
-                Console.Write("Въведете неотрицателно число: ");
+                Console.Write("Въведете неотрицателно число (хххх): ");
                 stringNumberReverse = Console.ReadLine();
-                numbReverse = int.Parse(stringNumberReverse);
-            } while (numbReverse < 0);
+                numb = int.Parse(stringNumberReverse);
+            } while (numb < 0);
 
             Console.WriteLine("Число обърнато " + ReverseString(stringNumberReverse));
             Console.ReadLine();
@@ -42,7 +42,7 @@ namespace Task_11
 
             do
             {
-                Console.Write("Въведете число от редицата. Въведете буква за да приключите: ");
+                Console.Write("Въведете число. Въведете буква за да приключите: ");
                 numberAverageString = Console.ReadLine();
                 input = Int32.TryParse(numberAverageString, out temp);
                 numberAverage += temp;
@@ -96,7 +96,7 @@ namespace Task_11
 
             } while (choice != 4);
 
-            Console.WriteLine(System.Environment.NewLine + "Приятен ден!");
+            Console.WriteLine(Environment.NewLine + "Приятен ден!");
             Console.ReadLine();
         }
     }

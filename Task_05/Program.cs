@@ -56,7 +56,7 @@ namespace Task_05
                 arr[i] = Int32.Parse(Console.ReadLine());
             }
 
-            Console.Write("Въведите позицията в масива: ");
+            Console.Write("Въведите позицията в масива: "); // вводишь индекс нужного елемента из массива и узнаёшь каковы его соседи
             int pos = Int32.Parse(Console.ReadLine());
 
             CompareNumb(pos, arr);

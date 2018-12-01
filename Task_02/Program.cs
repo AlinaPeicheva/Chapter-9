@@ -12,10 +12,10 @@ namespace Task_02
         static void GetMax(int first, int second)
         {
             if (first > second) a = first;
-            else a = second;
+            else a = second;                    
         }
 
-        static void Main(string[] args)
+        static void Main(string[] args)                         // вводишь три числа и выводить максимальное 
         {
             Console.Write("Въведете първото число: ");
             a = Int32.Parse(Console.ReadLine());

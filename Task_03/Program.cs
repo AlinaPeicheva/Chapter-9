@@ -7,7 +7,7 @@ namespace Task_03
         /*Напишете метод, който връща английското наименование на последната
          цифра от дадено число. Примери: за числото 512 отпечатва "two", за числото 1024 → "four".*/
 
-        static void GetName(string number)
+        static void InputNum(string number)
         {
             switch (number[number.Length - 1])
             {
@@ -27,10 +27,10 @@ namespace Task_03
 
         static void Main(string[] args)
         {
-            Console.Write("Въведите число: ");
+            Console.Write("Enter mumber: ");
             string number = Console.ReadLine();
 
-            GetName(number);
+            InputNum(number);
         }
     }
 }
